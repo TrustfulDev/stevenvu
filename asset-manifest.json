@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stevenvu/static/css/main.d155d4a7.css",
+    "main.css": "/stevenvu/static/css/main.74ed43fc.css",
     "main.js": "/stevenvu/static/js/main.b8ee72b4.js",
     "static/media/lightForest.jpg": "/stevenvu/static/media/lightForest.acb7c0250a71997b36de.jpg",
     "static/media/starryMountain.jpg": "/stevenvu/static/media/starryMountain.843c27618e33de1d5fc6.jpg",
@@ -13,11 +13,11 @@
     "static/media/sjsu.svg": "/stevenvu/static/media/sjsu.cec7a90d6c15e0837265da2124635672.svg",
     "static/media/Unreal_Engine_Logo.svg": "/stevenvu/static/media/Unreal_Engine_Logo.fd9744023f47837a8aed831ca65c211c.svg",
     "index.html": "/stevenvu/index.html",
-    "main.d155d4a7.css.map": "/stevenvu/static/css/main.d155d4a7.css.map",
+    "main.74ed43fc.css.map": "/stevenvu/static/css/main.74ed43fc.css.map",
     "main.b8ee72b4.js.map": "/stevenvu/static/js/main.b8ee72b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d155d4a7.css",
+    "static/css/main.74ed43fc.css",
     "static/js/main.b8ee72b4.js"
   ]
 }
