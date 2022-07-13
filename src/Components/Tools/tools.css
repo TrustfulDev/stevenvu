@@ -1,0 +1,35 @@
+.tools-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-container img {
+    margin: 2rem;
+}
+
+@media screen and (max-width: 1169px) {
+    .tools-container img {
+        margin: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .tools-container img {
+        margin: 1.5rem 0.75rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tools-container img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .tools-container img {
+        margin: 1rem 0.5rem;
+    }
+}

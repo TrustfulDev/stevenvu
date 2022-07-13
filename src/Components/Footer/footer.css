@@ -1,0 +1,79 @@
+/* Footer Styling */
+.footer-container {
+    font-family: var(--font-family);
+    padding: 2rem 4rem;
+    min-height: 7rem;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socials a {
+    font-size: 3rem;
+    margin: 0 0.75rem;
+    color: var(--color-orange);
+
+    transition: 0.3s ease-in-out;
+}
+
+.footer-socials a:hover {
+    transform: translateY(-5px);
+}
+
+.footer-container p {
+    text-align: center;
+    color: var(--color-grey);
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.footer-nav a {
+    color: var(--color-grey);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 1rem;
+
+    margin: 0 1rem;
+    cursor: pointer;
+
+    transition: 0.1s ease-in-out;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+    text-shadow: 
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff;
+}
+
+/* Tightens the footer nav */
+@media screen and (max-width: 550px) {
+    .footer-nav a {
+        padding: 1rem 0;
+    }
+
+    .footer-container p {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer-nav a {
+        margin: 0 8px;
+    }
+}

@@ -1,0 +1,177 @@
+/* Experience Styling */
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5rem 10rem;
+
+    font-family: var(--font-family);
+}
+
+.experience-header {
+    width: 100%;
+    max-width: 1543px;
+    padding: 2rem 5rem 0 5rem;
+}
+
+.experience-header h1 {
+    font-size: 3rem;
+
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 10rem 2rem 10rem;
+    margin: 0 auto;
+    max-width: 1542px;
+
+    background-color: var(--color-black);
+}
+
+.experience-tab-container {
+    min-width: 130px;
+    margin-right: 1rem;
+    color: var(--color-grey);
+}
+
+.experience-tab {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    border-left: 1px solid var(--color-grey);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+}
+
+.experience-active-tab {
+    border-left: 3px solid var(--color-orange);
+    color: var(--color-orange);
+}
+
+.experience-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.experience-content-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.experience-content {
+    padding: 3.4rem 3rem;
+    display: none;
+    
+}
+
+.experience-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-orange);
+    margin-bottom: 0.2rem;
+}
+
+.experience-content h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-grey);
+    margin-bottom: 1rem;
+}
+
+.experience-content ul {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--color-grey);
+}
+
+.content-img {
+    display: none;
+}
+
+.active-content {
+    display: block;
+    min-width: 750.783px;
+    min-height: 306px;
+}
+
+.active-img {
+    display: block;
+}
+
+.active-img img {
+    border-radius: 25px 100px;
+    box-shadow: 0 0 50px #000;
+}
+
+/* Remove image and adjusts spacing */
+@media screen and (max-width: 1720px) {
+    .experience {
+        padding: 2rem 10rem;
+    }
+
+    .experience-container {
+        padding: 0 5rem 2rem 5rem;
+    }
+
+    .active-img img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .experience {
+        padding: 2rem 0;
+    }
+
+    .experience-tab-container {
+        margin: 0;
+    }
+    
+    .experience-container {
+        padding: 0 0 2rem 0;
+    }
+
+    .active-content {
+        min-width: unset;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .experience-header {
+        width: 100%;
+        max-width: 1543px;
+        padding: 1rem 2rem 0 2rem;
+    }
+    
+    .experience-header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .experience-content {
+        padding: 3.4rem 1rem;
+    }
+    
+    .experience-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .experience-content h3 {
+        font-size: 1.1rem;
+    }
+}

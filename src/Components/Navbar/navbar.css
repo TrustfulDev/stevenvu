@@ -1,0 +1,121 @@
+/* Navbar Styling */
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 6rem;
+}
+
+.navbar-logo img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-links a, .navbar-menu-links a {
+    color: var(--color-grey);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 1rem;
+
+    margin: 0 1rem;
+    cursor: pointer;
+
+    transition: 0.1s ease-in-out;
+}
+
+.navbar-links a:hover, .navbar-menu-links a:hover {
+    color: #fff;
+    text-shadow: 
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff;
+}
+
+.navbar-links button, .navbar-menu-links button {
+    padding: 0.75rem 1.5rem;
+    margin-left: 1rem;
+    background-color: var(--color-black);
+    color: var(--color-orange);
+    border-radius: 15px 50px;
+    border-color: var(--color-orange);
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-links button:hover, .navbar-menu-links button:hover {
+    background-color: var(--color-orange);
+    color: var(--color-grey);
+    text-shadow: 
+        0 0 5px var(--color-black),
+        0 0 10px var(--color-black);
+    filter: drop-shadow(0px 1px 4px var(--color-orange));
+}
+
+/* Mobile Navbar Styling */
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu svg {
+    cursor: pointer;
+}
+
+.navbar-menu-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: absolute;
+    top: 35px;
+    left: -65px;
+}
+
+/* Turns main navbar into mobile navbar */
+@media screen and (max-width: 1025px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+    }
+}
+
+/* Adjusts padding and adds a background to the mobile navbar */
+@media screen and (max-width: 700px) {
+    .navbar-menu-links {
+        padding: 1rem;
+        left: -170px;
+        background-color: var(--color-black);
+        box-shadow: 0 0 10px var(--color-grey);
+        border-radius: 75px 25px 25px 25px;
+    }
+
+    .navbar-container {
+        padding: 1rem 2rem;
+    }
+}

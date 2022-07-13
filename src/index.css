@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Weights: 200, 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;400;700&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --font-family: 'Anek Latin', sans-serif;
+
+    --gradient-text: linear-gradient(180deg, #d76733 70%, #252323 100%);
+
+    --color-orange: #d76733;
+    --color-black: #252323;
+    --color-grey: #dad6d6;
 }
