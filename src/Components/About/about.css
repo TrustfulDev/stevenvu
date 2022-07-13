@@ -120,7 +120,7 @@
 /* Adjusts spacing and img size */
 @media screen and (max-width: 1580px) {
     .interested-images img {
-        width: 150px;
+        width: 100px;
     }
 }
 
@@ -183,7 +183,7 @@
 
     .about-description {
         padding: 1rem 2rem;
-        border-radius: 25px 75px 25px 75px;
+        border-radius: 25px 65px 25px 65px;
     }
     
     .about-description h1 {
@@ -204,6 +204,22 @@
 
     .about-button button:hover {
         font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .interested-images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .interested-images img {
+        margin: 0.25rem 0;
+    }
+
+    .interested-images img:last-child {
+        width: 150px;
     }
 }
 
