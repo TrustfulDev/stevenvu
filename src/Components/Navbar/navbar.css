@@ -6,6 +6,7 @@
     align-items: center;
 
     padding: 1rem 6rem;
+    z-index: 100;
 }
 
 .navbar-logo img {
