@@ -90,6 +90,10 @@
 }
 
 @media screen and (max-width: 421px) {
+    .contact-form-container {
+        padding: 0 2rem;
+    }
+    
     .contact-form-container h1 {
         font-size: 2.5rem;
     }

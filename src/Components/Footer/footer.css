@@ -63,12 +63,16 @@
 
 /* Tightens the footer nav */
 @media screen and (max-width: 550px) {
-    .footer-nav a {
-        padding: 1rem 0;
-    }
-
     .footer-container p {
         font-size: 0.95rem;
+    }
+
+    .footer-socials a {
+        margin: 0 0.6rem;
+    }
+
+    .footer-nav a {
+        padding: 1rem 0;
     }
 }
 

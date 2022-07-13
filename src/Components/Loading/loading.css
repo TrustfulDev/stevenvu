@@ -23,6 +23,12 @@
     margin-top: 1rem;
 }
 
+@media screen and (max-width: 550px) {
+    .load-container {
+        margin-top: -3rem;
+    }
+}
+
 /* Fade Out Animation */
 .fade-out {
     animation: fadeOut 3s;

@@ -43,6 +43,7 @@
 @media screen and (max-width: 770px) {
     .hero-container {
         line-height: 5rem;
+        margin-top: -6rem;
     }
     
     .hero-container h1 {
@@ -57,6 +58,7 @@
 @media screen and (max-width: 560px) {
     .hero-container h1 {
         font-size: 4rem;
+        margin-top: -7rem;
     }
 
     .hero-container p {
