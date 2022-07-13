@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stevenvu/static/css/main.c70b0d45.css",
+    "main.js": "/stevenvu/static/js/main.b8ee72b4.js",
+    "static/media/lightForest.jpg": "/stevenvu/static/media/lightForest.acb7c0250a71997b36de.jpg",
+    "static/media/starryMountain.jpg": "/stevenvu/static/media/starryMountain.843c27618e33de1d5fc6.jpg",
+    "static/media/smile.jpg": "/stevenvu/static/media/smile.41abd30c9c479742e285.jpg",
+    "static/media/Arma3_Logo.png": "/stevenvu/static/media/Arma3_Logo.273bfa9c836377073e83.png",
+    "static/media/minecraft.svg": "/stevenvu/static/media/minecraft.d7672a93be6b2523407fbbc31126690b.svg",
+    "static/media/deAnzaLogo.png": "/stevenvu/static/media/deAnzaLogo.127687d17fba48eeb90b.png",
+    "static/media/SmallTransparent.png": "/stevenvu/static/media/SmallTransparent.354cda675e672a201074.png",
+    "static/media/placeholderProject.png": "/stevenvu/static/media/placeholderProject.da514c17959e1ec8ac8a.png",
+    "static/media/sjsu.svg": "/stevenvu/static/media/sjsu.cec7a90d6c15e0837265da2124635672.svg",
+    "static/media/Unreal_Engine_Logo.svg": "/stevenvu/static/media/Unreal_Engine_Logo.fd9744023f47837a8aed831ca65c211c.svg",
+    "index.html": "/stevenvu/index.html",
+    "main.c70b0d45.css.map": "/stevenvu/static/css/main.c70b0d45.css.map",
+    "main.b8ee72b4.js.map": "/stevenvu/static/js/main.b8ee72b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c70b0d45.css",
+    "static/js/main.b8ee72b4.js"
+  ]
+}
